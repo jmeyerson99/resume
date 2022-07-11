@@ -1,6 +1,7 @@
 %-------------------------
 % Resume in Latex
-% Author : Jake Gutierrez
+% Template By: Jake Gutierrez
+% Author : Jacob Meyerson
 % Based off of: https://github.com/sb2nov/resume
 % License : MIT
 %------------------------
@@ -129,13 +130,13 @@
 \end{center}
 
 %-----------SUMMARY-----------
-\section{Summary}
-   \resumeSubHeadingListStart
-    	\resumeSummaryheading
-      		{Available June 2021 through August 2021}{}
-   	 \resumeSummaryheading
-      		{Currently hold Secret Government Security Clearance, as of June 2019}{}
-  \resumeSubHeadingListEnd 
+%\section{Summary}
+%   \resumeSubHeadingListStart
+   % 	\resumeSummaryheading
+   %   		{Available June 2021 through August 2021}{}
+   	 %\resumeSummaryheading
+      	%	{Currently hold Secret Government Security Clearance, as of June 2019}{}
+  %\resumeSubHeadingListEnd 
 
 %-----------EDUCATION-----------
 \section{Education}
@@ -143,8 +144,10 @@
     \resumeSubheading
       {Rochester Institute of Technology (RIT)}{Rochester, NY}
       {Bachelor of Science in Computer Engineering}{Aug. 2017 -- May 2022}
+      \resumeSubSubheading
+      {Minor in Mathematics}{Aug. 2017 -- May 2022}
     \resumeSubSubheading
-      {GPA: 3.98/4.00 Dean$'$s List: Fall 2017, Spring 2018, Fall 2018, Spring 2019, Spring 2020}{}
+      {GPA: 3.98/4.00 Dean$'$s List: Fall 2017, Spring 2018, Fall 2018, Spring 2019, Spring 2020, Spring 2021}{}
   \resumeSubHeadingListEnd
 
 %-----------EXPERIENCE-----------
@@ -158,6 +161,14 @@
         \resumeItem{Part of the Diagnostic Software unit}
         \resumeItem{Worked on B2 Bomber Avionics and Graphics Processor (B2-AGP) automating builds and card setups, along with verifying card functionality}
         \resumeItem{Worked with \href{http://in.nau.edu/cybersecurity/publications/}{\underline{Northern Arizona University}} (NAU) using Ternary Physically Unclonable Functions (PUF) for encryption and key authentication}
+        \resumeItemListEnd
+        
+     \resumeSubheading
+      {STR}{June 2021 - August 2021}
+      {Sensors - Signal Processing \& Algorithms Intern}{Woburn, MA}
+      \resumeItemListStart
+        \resumeItem{Part of the Signal Processing \& Algorithms department}
+        \resumeItem{Worked on porting the PYNQ environment for ZYNQ architectures from a supported board to high powered signal processing ZYNQ board}
         \resumeItemListEnd
       
 % -----------Multiple Positions Heading-----------
@@ -210,18 +221,25 @@
             \resumeItem{Developed using OpenUP methodology and Scrum process}
             \resumeItem{Created UML files, sequence diagrams, flow charts to support architecture choices}
         \resumeItemListEnd
+
+	 \resumeProjectHeading
+          {\textbf{PYNQ Environment Porting} $|$ \emph{Make, Git, ZYNQ architecture, Python}}{June 2021 -- August 2021}
+          \resumeItemListStart
+            \resumeItem{Worked to port the PYNQ environment from a supported board to a higher powered ZYNQ board}
+            \resumeItem{Provided capability to execute high level algorithms (Python) on ZYNQ boards without manually writing VHDL/Verilog models}
+        \resumeItemListEnd
    
     \resumeSubHeadingListEnd
 
 %-----------TECHNICAL SKILLS-----------
-\section{Technical Skills}
+\section{Honors Awarded}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Languages}{: C/C++, Java, Python, ARM Assembly, MIPS Assembly, VHDL, LaTeX, Markdown} \\
-     \textbf{Developer Tools}{: Git, Gitlab, SVN, Visual Studio, PyCharm, Altera Quartus, ModelSim, LabVIEW, CodeWarrior} \\
-     \textbf{Hardware}{: Oscilloscope (Digital and Analog), Digital Multimeter, Raspberry Pi, Arduino} \\
-     \textbf{Software Development Processes}{: Waterfall, Agile}
-    }}
+    \textbf{NXP Cup}{: With Charlie Poliwoda, placed 1st in the NXP Cup race, Spring 2021} \\
+     \textbf{Academic Decathlon Gold Medalist}{: Gold Medal in 'A' division in Mathematics, Senior Year High School} \\
+     \textbf{SkillsUSA Mobile Robotics}{: Competed twice at the National Competition representing Rhode Island, placed inside the top 20 nationally, Junior and Senior Years High School} \\
+	\textbf{Dean's List}{: Fall 2017, Spring 2018, Fall 2018, Spring 2019, Spring 2020, Spring 2021} \\
+        }}
  \end{itemize}
  
  %----------- ACTIVITIES -----------
@@ -230,7 +248,7 @@
       \resumeProjectHeading
           {\textbf{NCAA Division III Men's Tennis} $|$ \emph{Student Athlete}}{Aug 2017 -- Present}
       \resumeProjectHeading
-          {\textbf{RIT Student Athlete Advisory Committee (SAAC)} $|$ \emph{Student Athlete}}{Sept 2018 - May 2019}
+          {\textbf{Student Athlete Advisory Committee (SAAC)} $|$ \emph{Student Athlete}}{Sept 2018 - May 2019, Aug 2021 - Present}
           \resumeItemListStart
             \resumeItem{Represent Men's Tennis to help plan athlete events, as well as team activities like community service projects}
           \resumeItemListEnd
