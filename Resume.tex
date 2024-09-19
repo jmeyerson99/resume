@@ -123,10 +123,11 @@
 \begin{center}
     \textbf{\Huge \scshape Jacob Meyerson} \\ \vspace{1pt}
     \small (401) 263 6931 $|$ 
-    \small 26 Burget Avenue, Medford, MA 02155 $|$
-    \href{mailto:jwm2520@rit.edu}{\underline{jwm2520@rit.edu}} $|$ 
+    \small 217 Holland St Apt 3A, Somerville MA 02144 $|$
+    \href{mailto:jmeyerson99@gmail.com}{\underline{jmeyerson99@gmail.com}} $|$ 
     \href{https://www.linkedin.com/in/jacob-meyerson-59036b14a/}{\underline{linkedin}} %$|$ %ADD GITHUB
     %\href{https://github.com/...}{\underline{github.com/jake}} %ADD GITHUB
+    \\ \small Currently hold TS Government Security Clearance
 \end{center}
 
 %-----------SUMMARY-----------
@@ -143,11 +144,11 @@
   \resumeSubHeadingListStart
     \resumeSubheading
       {Rochester Institute of Technology (RIT)}{Rochester, NY}
-      {Bachelor of Science in Computer Engineering}{Aug. 2017 -- May 2022}
+      {Bachelor of Science in Computer Engineering}{May 2022}
       \resumeSubSubheading
-      {Minor in Mathematics}{Aug. 2017 -- May 2022}
-    \resumeSubSubheading
-      {GPA: 3.98/4.00 Dean$'$s List: Fall 2017, Spring 2018, Fall 2018, Spring 2019, Spring 2020, Spring 2021, Fall 2022, Spring 2022}{}
+        {Minor in Mathematics}{May 2022}
+      \resumeSubSubheading
+        {GPA: 3.98/4.00}{}% Dean$'$s List: Fall 2017, Spring 2018, Fall 2018, Spring 2019, Spring 2020, Spring 2021, Fall 2022, Spring 2022}{}
   \resumeSubHeadingListEnd
 
 %-----------EXPERIENCE-----------
@@ -155,104 +156,111 @@
   \resumeSubHeadingListStart
 
     \resumeSubheading
+      {STR}{June 2021 - August 2021, August 2022 - Current}
+      {Computer Engineer}{August 2023 - Current}
+        \resumeItemListStart
+          \resumeItem{Routinely worked 2-3 programs each month, making significant contributions to all}
+          \resumeItem{Member of the Sensors Division, but worked various programs across all divisions}
+          \resumeItem{Manged an intern during the summer of 2024, tasking him to maximize contributions to the program, and served as his technical mentor}
+          \resumeItem{Created PowerPoint slides and briefed several customers on technical work and its impact to the goals of the program}
+          \resumeItem{Worked to create the backend of an RF transmitting system in Python}
+            \\ {\quad - Includes several concurrent Python processes, communicating through gRPC and ZMQ interfaces}
+            \\ {\quad - Integrated software to integrate with several devices communicating through serial connection}
+            \\ {\quad - Designed robust software capable of recovering from unintended use cases or other system errors}
+          \resumeItem{Update customized firmware on ZYNQ UltraScale+ RFSoC}  
+        \resumeItemListEnd
+      
+      \resumeSubSubheading
+        {Associate Computer Engineer}{August 2022 - August 2023}
+        \resumeItemListStart
+          \resumeItem{Developed optimized C++ software from advanced MATLAB algorithms}
+          \resumeItem{Worked briefly with a classification Neural Network (Python)}
+          \resumeItem{Worked closely with Docker and Singularity containers to deploy software}
+          \resumeItem{Set up Gitlab CI/CD pipelines to compile and test committed code. Also integrated git hooks to enforce stylistic constraints on commits}
+          \resumeItem{Created an automated build script using Ansible for imaging computers and configuring runtime environmments}
+          \resumeItem{Implemented several Bash scripts to automate setup and testing}
+        \resumeItemListEnd
+
+      \resumeSubSubheading
+        {Sensors - Signal Processing \& Algorithms Intern}{Woburn, MA}
+        \resumeItemListStart
+          \resumeItem{Part of the Signal Processing \& Algorithms department}
+          \resumeItem{Worked on porting the PYNQ environment for ZYNQ architectures from a supported board to high powered signal processing ZYNQ board}
+        \resumeItemListEnd
+    
+    \resumeSubheading
       {Lockheed Martin}{June 2019 - Nov 2019, June 2020 - April 2021}
       {Software Engineering Co-Op}{Owego, NY}
       \resumeItemListStart
         \resumeItem{Part of the Diagnostic Software unit}
         \resumeItem{Worked on B2 Bomber Avionics and Graphics Processor (B2-AGP) automating builds and card setups, along with verifying card functionality}
         \resumeItem{Worked with \href{http://in.nau.edu/cybersecurity/publications/}{\underline{Northern Arizona University}} (NAU) using Ternary Physically Unclonable Functions (PUF) for encryption and key authentication}
-        \resumeItemListEnd
-        
-     \resumeSubheading
-      {STR}{June 2021 - August 2021}
-      {Sensors - Signal Processing \& Algorithms Intern}{Woburn, MA}
-      \resumeItemListStart
-        \resumeItem{Part of the Signal Processing \& Algorithms department}
-        \resumeItem{Worked on porting the PYNQ environment for ZYNQ architectures from a supported board to high powered signal processing ZYNQ board}
-        \resumeItemListEnd
+      \resumeItemListEnd
       
 % -----------Multiple Positions Heading-----------
-%    \resumeSubSubheading
-%     {Software Engineer I}{Oct 2014 - Sep 2016}
-%     \resumeItemListStart
-%        \resumeItem{Apache Beam}
-%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
-%     \resumeItemListEnd
-%    \resumeSubHeadingListEnd
+  %  \resumeSubSubheading
+  %   {Software Engineer I}{Oct 2014 - Sep 2016}
+  %   \resumeItemListStart
+  %      \resumeItem{Apache Beam}
+  %        {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+  %   \resumeItemListEnd
+  %  \resumeSubHeadingListEnd
 %-------------------------------------------
-
-    \resumeSubheading
-      {Rochester Institute of Technology (RIT)}{Jan 2020 - May 2020}
-      {Digital System Design II Teaching Assistant}{Rochester, NY}
-      \resumeItemListStart
-        \resumeItem{Worked in the lab helping students design a MIPS processor in VHDL}
-        \resumeItem{Taught students the process of debugging errors in code and verifying waveforms}
-        \resumeItem{Held office hours to individually work with students to improve their understanding of the design and code}
-    \resumeItemListEnd
 
   \resumeSubHeadingListEnd
 
 
 %-----------PROJECTS-----------
-\section{Projects}
-    \resumeSubHeadingListStart
-      \resumeProjectHeading
-          {\textbf{Lockheed Martin B2 AGP} $|$ \emph{C, Python, SVN, Raspberry Pi, Waterfall}}{June 2019 -- Nov 2019}
-          \resumeItemListStart
-            \resumeItem{Performed Software Verification (SV) and Design Verification Tests (DVT) to prove functionality, updating procedures as required}
-            \resumeItem{Documented user guides for important processes required for testing}
-            \resumeItem{Automated the build process for building Board Support Packages (BSPs) for each custom card}
-            \resumeItem{Created setup macros to automate software configuration for new cards}
-          \resumeItemListEnd
-          
-      \resumeProjectHeading
-          {\textbf{Lockheed Martin TPUF} $|$ \emph{C/C++, Python, Gitlab, Arduino, Agile}}{June 2020 -- April 2021}
-          \resumeItemListStart
-            \resumeItem{Worked with NAU to develop code to use Ternary Physically Unclonable Functions for secure key exchanges}
-            \resumeItem{Restructured and reformatted code to create layers of abstraction and to make object oriented}
-            \resumeItem{Developed using an Agile design framework}
-            \resumeItem{Helped set up automated Software Factory to test and compile code anytime it's committed to Gitlab}
-        \resumeItemListEnd
-        
-      \resumeProjectHeading
-          {\textbf{Webcheckers} $|$ \emph{Java, Spark, Git, HTML, Agile}}{Oct 2018 -- Dec 2018}
-          \resumeItemListStart
-            \resumeItem{Developed an online checkers game in a team of five using Java, Spark web micro framework, and HTML to meet demands of a customer-figure}
-            \resumeItem{Developed using OpenUP methodology and Scrum process}
-            \resumeItem{Created UML files, sequence diagrams, flow charts to support architecture choices}
-        \resumeItemListEnd
+% \section{Projects}
+%     \resumeSubHeadingListStart
 
-	 \resumeProjectHeading
-          {\textbf{PYNQ Environment Porting} $|$ \emph{Make, Git, ZYNQ architecture, Python}}{June 2021 -- August 2021}
-          \resumeItemListStart
-            \resumeItem{Worked to port the PYNQ environment from a supported board to a higher powered ZYNQ board}
-            \resumeItem{Provided capability to execute high level algorithms (Python) on ZYNQ boards without manually writing VHDL/Verilog models}
-        \resumeItemListEnd
-   
-    \resumeSubHeadingListEnd
+%       \resumeProjectHeading
+%         {\textbf{Lockheed Martin B2 AGP} $|$ \emph{C, Python, SVN, Raspberry Pi, Waterfall}}{June 2019 -- Nov 2019}
+%         \resumeItemListStart
+%           \resumeItem{Performed Software Verification (SV) and Design Verification Tests (DVT) to prove functionality, updating procedures as required}
+%           \resumeItem{Documented user guides for important processes required for testing}
+%           \resumeItem{Automated the build process for building Board Support Packages (BSPs) for each custom card}
+%           \resumeItem{Created setup macros to automate software configuration for new cards}
+%         \resumeItemListEnd
+    
+%       \resumeProjectHeading
+%           {\textbf{Lockheed Martin B2 AGP} $|$ \emph{C, Python, SVN, Raspberry Pi, Waterfall}}{June 2019 -- Nov 2019}
+%           \resumeItemListStart
+%             \resumeItem{Performed Software Verification (SV) and Design Verification Tests (DVT) to prove functionality, updating procedures as required}
+%             \resumeItem{Documented user guides for important processes required for testing}
+%             \resumeItem{Automated the build process for building Board Support Packages (BSPs) for each custom card}
+%             \resumeItem{Created setup macros to automate software configuration for new cards}
+%           \resumeItemListEnd
+          
+%       \resumeProjectHeading
+%           {\textbf{Lockheed Martin TPUF} $|$ \emph{C/C++, Python, Gitlab, Arduino, Agile}}{June 2020 -- April 2021}
+%           \resumeItemListStart
+%             \resumeItem{Worked with NAU to develop code to use Ternary Physically Unclonable Functions for secure key exchanges}
+%             \resumeItem{Restructured and reformatted code to create layers of abstraction and to make object oriented}
+%             \resumeItem{Developed using an Agile design framework}
+%             \resumeItem{Helped set up automated Software Factory to test and compile code anytime it's committed to Gitlab}
+%         \resumeItemListEnd
+
+%       \resumeProjectHeading
+%           {\textbf{PYNQ Environment Porting} $|$ \emph{Make, Git, ZYNQ architecture, Python}}{June 2021 -- August 2021}
+%           \resumeItemListStart
+%             \resumeItem{Worked to port the PYNQ environment from a supported board to a higher powered ZYNQ board}
+%             \resumeItem{Provided capability to execute high level algorithms (Python) on ZYNQ boards without manually writing VHDL/Verilog models}
+%         \resumeItemListEnd
+
+%     \resumeSubHeadingListEnd
 
 %-----------TECHNICAL SKILLS-----------
 \section{Technical Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-    \textbf{Languages}{: C/C++, Java, Python ARM Assembly, MIPS Assembly, VHDL, LaTeX, Markdown} \\
-     \textbf{Developer Tools}{: Git/Gitlab, SVN, Cadence Virtuoso, Altera Quartus, LabVIEW, CodeWarrior, Xilinx, SPICE} \\
-     \textbf{Hardware}{: Oscilloscope, Digital Multimeter, Raspberry Pi, Arduino, Nexys 4 DDR, ZYNQ, STM32} \\
-	\textbf{Software Development Processes}{: Waterfall, Agile} \\
+    \textbf{Languages}{: C/C++, Java, Python, Bash, ARM Assembly, MIPS Assembly, VHDL, System Verilog, LaTeX, Markdown} \\
+     \textbf{Developer Tools}{: Git, Gitlab CI/CD, Xilinx Vivado \& Petalinux, Anaconda, Docker \& Singularity, Ansible} \\
+     \textbf{Hardware}{: Raspberry Pi, Arduino, Nexys 4 DDR, ZYNQ, AMD Zynq UltraScale+ RFSoCs, STM32} \\
+	\textbf{Operating Systems}{: FreeRTOS, Ubuntu, RHEL, CentOS} \\
+  \textbf{Software Development Processes}{: Agile, Waterfall} \\
         }}
  \end{itemize}
- 
- %----------- ACTIVITIES -----------
-\section{Activities}
- \resumeSubHeadingListStart
-      \resumeProjectHeading
-          {\textbf{NCAA Division III Men's Tennis} $|$ \emph{Student Athlete}}{Aug 2017 -- May 2022}
-      \resumeProjectHeading
-          {\textbf{Student Athlete Advisory Committee (SAAC)} $|$ \emph{Student Athlete}}{Sept 2018 - May 2019, Aug 2021 - May 2022}
-          \resumeItemListStart
-            \resumeItem{Represent Men's Tennis to help plan athlete events, as well as team activities like community service projects}
-          \resumeItemListEnd
-    \resumeSubHeadingListEnd
 
 %-------------------------------------------
 \end{document}
